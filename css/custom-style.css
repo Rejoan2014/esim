@@ -92,5 +92,67 @@
     max-width: 70%;
     height: auto;
 }
+.choose-section {
+  margin-top: 50px;
+}
+.view-button {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  background-color: yellow;
+  border: none;
+}
+.view-button:hover {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 50px;
+  background-color: yellow;
+  border: none;
+}
+.country-card {
+  display: flex;
+  align-items: center;
+  padding: 25px 20px;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.country-flag {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+}
+.country-name {
+  flex-grow: 1;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+.arrow-icon {
+  font-size: 1.25rem;
+}
+.work-section {
+  margin-top: 50px;
+}
 
-
+.card-img-bg {
+  background: #C9D6E9;
+}
+.number-padding {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.card-section {
+  background: #f3f3f3;
+  border-radius: 10px;
+  height: 100%;
+}
+.card-text {
+  padding: 18px;
+}
+.stay-connect-section {
+  background: #000;
+}

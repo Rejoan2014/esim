@@ -14,6 +14,22 @@
     vertical-align: baseline;
     line-height: 30px;
   }
+    /* header section start */
+    .nav-item .btn-link {
+      font-size: 14px;
+      color: #000;
+      text-decoration: none;
+    }
+    .nav-item .app-button {
+      font-size: 18px;
+      border: 1px solid black;
+      text-decoration: none;
+      border-radius: 50px;
+    }
+    .header-background {
+      background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
+    }  
+    /* header section end */
   
   /* Hamberger start */
   .bar1, .bar2, .bar3 {
@@ -43,7 +59,7 @@
     padding: 10px 20px;
     display: flex;
     align-items: center;
-    border: 9px solid #a3bcc2;
+    border: 9px solid #bac9df;
 }
 
 .search-box input {
@@ -72,7 +88,6 @@
 .hero-section {
     background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
 }  
-
 .img-fluid {
     max-width: 70%;
     height: auto;

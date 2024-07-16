@@ -157,4 +157,8 @@
   background: #000;
   margin-top: 5rem;
   padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.semi-mute {
+  color: #b1b1b4;
 }

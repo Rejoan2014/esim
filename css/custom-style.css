@@ -24,6 +24,9 @@
     }
     .header-background {
       background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
+    }
+    .nav-item a {
+      font-weight: 500;
     }  
     /* header section end */
   

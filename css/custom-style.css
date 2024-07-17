@@ -270,5 +270,24 @@ img {
 /* Destination Page Design End */
 
 /* What is an eSIM start */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 30px;
+  font-size: 18px;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f7f7f8
+}
 
 /* What is an eSIM end */

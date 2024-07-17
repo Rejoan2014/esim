@@ -73,14 +73,14 @@
 .search-box .location-icon,
 .search-box .search-icon {
     color: gray;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .search-box .search-icon {
     background: black;
     color: yellow;
     border-radius: 50%;
-    padding: 10px;
+    padding: 12px;
     cursor: pointer;
 }
 /* search box end */
@@ -252,7 +252,7 @@ img {
   position: relative;
   border-radius: 50px;
   background: #f8f9fa;
-  padding: 10px 20px;
+  padding: 15px 20px;
   display: flex;
   align-items: center;
   border: 9px solid #bac9df;
@@ -262,7 +262,7 @@ img {
   position: relative;
   border-radius: 50px;
   background: white;
-  padding: 10px 20px;
+  padding: 15px 20px;
   display: flex;
   align-items: center;
   border: 9px solid rgba(0,0,0,.03);

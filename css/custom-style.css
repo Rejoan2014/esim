@@ -243,3 +243,28 @@ img {
     }
   }
   /* Responsive for all device End */
+
+/* Destination Page Design Start */
+.destination-section {
+  padding-top: 4rem;
+}
+.search-box {
+  position: relative;
+  border-radius: 50px;
+  background: #f8f9fa;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border: 9px solid #bac9df;
+}
+
+.search-box.destination {
+  position: relative;
+  border-radius: 50px;
+  background: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  border: 9px solid rgba(0,0,0,.03);
+}
+/* Destination Page Design End */

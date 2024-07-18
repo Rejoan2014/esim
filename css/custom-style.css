@@ -293,7 +293,7 @@ tr:nth-child(even) {
 /* What is an eSIM end */
 
 /* about us page start */
-/* .accordion code start */
+    /* .accordion code start */
 .accordion-button:focus {
   box-shadow: none;
 }
@@ -340,6 +340,5 @@ tr:nth-child(even) {
 p {
   font-size: 16px;
 }
-/* .accordion code end */
-
+      /* .accordion code end */
 /* about us page end */

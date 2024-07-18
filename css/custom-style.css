@@ -343,12 +343,13 @@ p {
       /* .accordion code end */
 /* about us page end */
 
-/* Help center start */
+
+/* Help page start */
 .nev1 { 
   position: static;
 }
 
-/*neb bar end*/
+/*help nav bar start*/
 .help {
   background-image: linear-gradient(86deg, #d7e0ee 4.72%, #a0b9dc 101.45%);
 }
@@ -367,7 +368,7 @@ a {
   color: black !important;
   text-decoration: underline;
 }
-/*neb bar end*/
+/*help nav bar end*/
 .from {
     height: 350px;   
     display: flex;
@@ -396,16 +397,10 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
-.last-futter {
+.hr-help {
   border-top: 1px solid rgb(214, 206, 206);  
-}
-.last-futter-text { 
-  display: flex;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-.last-futter-text a{ 
-  text-decoration: none;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 .search-box-help {
   position: relative;
@@ -435,4 +430,7 @@ a {
 .submit-text {
   text-decoration: none;
 }
-/* Help center end */
+.year-saily {
+  text-decoration: none;
+}
+/* Help page end */

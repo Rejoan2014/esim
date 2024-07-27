@@ -110,6 +110,25 @@
   background-color: yellow;
   border: none;
 }
+.custom-padding {
+  padding: 15px 30px 15px 30px;
+  font-weight: 500;
+}
+.custom-padding:hover {
+  padding: 15px 30px 15px 30px;
+  font-weight: 500;
+}
+.logIN-button {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 15px 30px 15px 30px;
+  font-weight: 500;
+}
+.logIN-button:hover {
+  border: 1px solid black;
+  border-radius: 50px;
+  font-weight: 500;
+}
 .country-card {
   display: flex;
   align-items: center;
@@ -400,3 +419,11 @@ a {
 }
 
 /* end Download app page */
+.nordvpn-bg {
+  background: #f7f7f8;
+}
+.card-bg {
+  background: #f7f7f8;
+  padding: 30px;
+  border-radius: 20px;
+}

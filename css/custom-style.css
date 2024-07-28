@@ -421,9 +421,18 @@ a {
 /* end Download app page */
 .nordvpn-bg {
   background: #f7f7f8;
+  border-radius: 50px;
 }
 .card-bg {
   background: #f7f7f8;
   padding: 30px;
   border-radius: 20px;
+}
+.nordvpn-padding {
+  padding: 70px;
+}
+.bullet-text {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 500;
 }

@@ -368,6 +368,9 @@ border-top: 1px solid rgb(214, 206, 206);
 margin-top: 2.5rem;
 margin-bottom: 2.5rem;
 }
+.hr-sail {
+border-top: 1px solid rgb(214, 206, 206);  
+}
 .search-box-help {
 position: relative;
 border-radius: 50px;
@@ -437,29 +440,29 @@ line-height: 1.5;
 font-weight: 500;
 }
  /*Saily Help CenterGetting Started with Saily */ 
- .getting-strat-firs-text {
-  margin: 20px;
-  text-align: justify;
-  padding: 0;
-  margin: 0;
+ .getting-start-first-text {
+    margin: 20px;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
  }
- .getting-strat-firs-tex-1 {
+ .getting-start-first-text-1 {
+    text-decoration: none;
+    color: #000;
+ }
+ .getting-start-first-text-1:hover {
+    text-decoration: underline;
+    color: #000;
+ }
+ .getting-start-first-text-2 {
   text-decoration: none;
   color: #000;
  }
- .getting-strat-firs-tex-1:hover {
+ .getting-start-first-text-2:hover {
   text-decoration: underline;
   color: #000;
  }
- .getting-strat-firs-tex-2 {
-  text-decoration: none;
-  color: #000;
- }
- .getting-strat-firs-tex-2:hover {
-  text-decoration: underline;
-  color: #000;
- }
-.getting-strat-firs-form {
+.getting-start-first-form {
   border-color: #87929D;
   border-radius: 30px;
   border-style: solid;
@@ -477,6 +480,14 @@ font-weight: 500;
 .Setting-up a:hover {
   text-decoration: underline;
   color: black;
+}
+.btn-submit {
+  background: #000;
+  color: whitesmoke;
+}
+.btn-submit:hover {
+  background: #000;
+  color: whitesmoke;
 }
  /*Saily Help CenterGetting Started with Saily */ 
 

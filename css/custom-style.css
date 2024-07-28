@@ -1,310 +1,438 @@
 * {
-    margin: 0;
-    border: 0;
-    outline: none;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    font-size: 14px; 
-    font-family: "Roboto", sans-serif;
-  }
-    /* header section start */
-    .nav-item .btn-link {
-      font-size: 14px;
-      color: #000;
-      text-decoration: none;
-    }
-    .nav-item .app-button {
-      font-size: 18px;
-      border: 1px solid black;
-      text-decoration: none;
-      border-radius: 50px;
-    }
-    .header-background {
-      background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
-    }
-    .nav-item a {
-      font-weight: 500;
-    }  
-    /* header section end */
-  
-  /* Hamberger start */
-  .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-  .change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-  }
-  
-  .change .bar2 {opacity: 0;}
-  
-  .change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-  }
-  /* Hamberger end */
-
-  /* search box start */
-  .search-box {
-    position: relative;
-    border-radius: 50px;
-    background: #f8f9fa;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-    border: 9px solid #bac9df;
+  margin: 0;
+  border: 0;
+  outline: none;
 }
 
-.search-box input {
-    border: none;
-    outline: none;
-    background: none;
-    flex: 1;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.search-box .location-icon,
-.search-box .search-icon {
-    color: gray;
-    font-size: 2rem;
-}
-
-.search-box .search-icon {
-    background: black;
-    color: yellow;
-    border-radius: 50%;
-    padding: 12px;
-    cursor: pointer;
-}
-/* search box end */
-.hero-section {
-    background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
-}  
-.img-fluid {
-    max-width: 70%;
-    height: auto;
-}
-.choose-section {
-  margin-top: 50px;
-}
-.view-button {
-  padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 50px;
-  background-color: yellow;
-  border: none;
-}
-.view-button:hover {
-  padding: 10px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 50px;
-  background-color: yellow;
-  border: none;
-}
-.custom-padding {
-  padding: 15px 30px 15px 30px;
-  font-weight: 500;
-}
-.custom-padding:hover {
-  padding: 15px 30px 15px 30px;
-  font-weight: 500;
-}
-.logIN-button {
-  border: 1px solid black;
-  border-radius: 50px;
-  padding: 15px 30px 15px 30px;
-  font-weight: 500;
-}
-.logIN-button:hover {
-  border: 1px solid black;
-  border-radius: 50px;
-  font-weight: 500;
-}
-.country-card {
-  display: flex;
-  align-items: center;
-  padding: 25px 20px;
-  border-radius: 10px;
-  background-color: #f8f9fa;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.country-flag {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 15px;
-  object-fit: cover;
-}
-.country-name {
-  flex-grow: 1;
-  font-size: 1.25rem;
-  font-weight: 500;
-}
-.arrow-icon {
-  font-size: 1.25rem;
-}
-.work-section {
-  margin-top: 50px;
-}
-
-.card-img-bg {
-  background: #C9D6E9;
-}
-.number-padding {
-  padding-top: 20px;
-  padding-left: 20px;
-}
-.card-section {
-  background: #f3f3f3;
-  border-radius: 10px;
+html,
+body {
   height: 100%;
+  font-size: 14px; 
+  font-family: "Roboto", sans-serif;
 }
-.card-text {
-  padding: 18px;
-}
-.stay-connect-section {
-  background: #000;
-}
-.semi-mute {
-  color: #b1b1b4;
-}
-.apple-area-bg {
-  background-color: #fff500;
-  border-radius: 45px;
-  border: 1px solid #fff500;
-}
-.download-app-section {
-  overflow: hidden;
-}
-.apple-content {
-  padding: 50px;
-}
-.image-area {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-.qr-image {
-  width: 80%;
-}
-
-/* Footer section start  */
-.footer-items ul {
-  list-style: none; /* Remove bullet points */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
-  display: flex; /* Display list items in a row */
-}
-
-.footer-items li {
-  margin-right: 35px; /* Optional: Add some spacing between items */
-}
-
-.footer-items li:last-child {
-  margin-right: 0; /* Remove margin from the last item */
-}
-.footer-items {
-  display: inline-block;  
-}
-.footer-img {
-  display: inline-block;
-  float: right;
-}
-.hr {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-.footer-items {
-  font-size: 12px;
-}
-
-/* Footer section End  */
-
-  /* Responsive for all device Start */
-  /* body {
+  /* header section start */
+  .nav-item .btn-link {
     font-size: 14px;
-  } */
-  @media (min-width: 1200px){
-    h2 {
-      font-size: 3rem;
-      line-height: 1.3;
-    }
-    h3 {
-      font-size: 1.75rem;
-      line-height: 1.4;
-    }
-    h4 {
-      font-size: 1.375rem;
-      line-height: 1.4;
-    }
-    h6 {
-      font-size: .875rem;
-      line-height: 1.5;
-    }
-    .view-button {
-      font-size: 1rem;
-    }
-    .country-name {
-      font-size: 1.25rem;
-    }
+    color: #000;
+    text-decoration: none;
   }
-  /* Responsive for all device End */
+  .nav-item .app-button {
+    font-size: 18px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  .header-background {
+    background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
+  }
+  .nav-item a {
+    font-weight: 500;
+  }  
+  /* header section end */
 
-/* Destination Page Design Start */
-.destination-section {
-  padding-top: 4rem;
+/* Hamberger start */
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
 }
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+/* Hamberger end */
+
+/* search box start */
 .search-box {
   position: relative;
   border-radius: 50px;
   background: #f8f9fa;
-  padding: 15px 20px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   border: 9px solid #bac9df;
 }
 
+.search-box input {
+  border: none;
+  outline: none;
+  background: none;
+  flex: 1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.search-box .location-icon,
+.search-box .search-icon {
+  color: gray;
+  font-size: 2rem;
+}
+
+.search-box .search-icon {
+  background: black;
+  color: yellow;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+}
+/* search box end */
+.hero-section {
+  background-image: linear-gradient(86deg,#d7e0ee 4.72%,#a0b9dc 101.45%);
+}  
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+}
+.choose-section {
+margin-top: 50px;
+}
+.view-button {
+padding: 10px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 50px;
+background-color: yellow;
+border: none;
+}
+.view-button:hover {
+padding: 10px;
+padding-left: 40px;
+padding-right: 40px;
+border-radius: 50px;
+background-color: yellow;
+border: none;
+}
+.custom-padding {
+padding: 15px 30px 15px 30px;
+font-weight: 500;
+}
+.custom-padding:hover {
+padding: 15px 30px 15px 30px;
+font-weight: 500;
+}
+.logIN-button {
+border: 1px solid black;
+border-radius: 50px;
+padding: 15px 30px 15px 30px;
+font-weight: 500;
+}
+.logIN-button:hover {
+border: 1px solid black;
+border-radius: 50px;
+font-weight: 500;
+}
+.country-card {
+display: flex;
+align-items: center;
+padding: 25px 20px;
+border-radius: 10px;
+background-color: #f8f9fa;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.country-flag {
+width: 40px;
+height: 40px;
+border-radius: 50%;
+margin-right: 15px;
+object-fit: cover;
+}
+.country-name {
+flex-grow: 1;
+font-size: 1.25rem;
+font-weight: 500;
+}
+.arrow-icon {
+font-size: 1.25rem;
+}
+.work-section {
+margin-top: 50px;
+}
+
+.card-img-bg {
+background: #C9D6E9;
+}
+.number-padding {
+padding-top: 20px;
+padding-left: 20px;
+}
+.card-section {
+background: #f3f3f3;
+border-radius: 10px;
+height: 100%;
+}
+.card-text {
+padding: 18px;
+}
+.stay-connect-section {
+background: #000;
+}
+.semi-mute {
+color: #b1b1b4;
+}
+.apple-area-bg {
+background-color: #fff500;
+border-radius: 45px;
+border: 1px solid #fff500;
+}
+.download-app-section {
+overflow: hidden;
+}
+.apple-content {
+padding: 50px;
+}
+.image-area {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.qr-image {
+width: 80%;
+}
+
+/* Footer section start  */
+.footer-items ul {
+list-style: none; /* Remove bullet points */
+padding: 0; /* Remove default padding */
+margin: 0; /* Remove default margin */
+display: flex; /* Display list items in a row */
+}
+
+.footer-items li {
+margin-right: 35px; /* Optional: Add some spacing between items */
+}
+
+.footer-items li:last-child {
+margin-right: 0; /* Remove margin from the last item */
+}
+.footer-items {
+display: inline-block;  
+}
+.footer-img {
+display: inline-block;
+float: right;
+}
+.hr {
+margin-top: 2.5rem;
+margin-bottom: 2.5rem;
+}
+.footer-items {
+font-size: 12px;
+}
+
+/* Footer section End  */
+
+/* Responsive for all device Start */
+/* body {
+  font-size: 14px;
+} */
+@media (min-width: 1200px){
+  h2 {
+    font-size: 3rem;
+    line-height: 1.3;
+  }
+  h3 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+  }
+  h4 {
+    font-size: 1.375rem;
+    line-height: 1.4;
+  }
+  h6 {
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+  .view-button {
+    font-size: 1rem;
+  }
+  .country-name {
+    font-size: 1.25rem;
+  }
+}
+/* Responsive for all device End */
+
+/* Destination Page Design Start */
+.destination-section {
+padding-top: 4rem;
+}
+.search-box {
+position: relative;
+border-radius: 50px;
+background: #f8f9fa;
+padding: 15px 20px;
+display: flex;
+align-items: center;
+border: 9px solid #bac9df;
+}
+
 .search-box.destination {
-  position: relative;
-  border-radius: 50px;
-  background: white;
-  padding: 15px 20px;
-  display: flex;
-  align-items: center;
-  border: 9px solid rgba(0,0,0,.03);
+position: relative;
+border-radius: 50px;
+background: white;
+padding: 15px 20px;
+display: flex;
+align-items: center;
+border: 9px solid rgba(0,0,0,.03);
 }
 /* Destination Page Design End */
 
 /* What is an eSIM start */
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  border: 1px solid #ddd;
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+border: 1px solid #ddd;
 }
 
 th, td {
-  padding: 30px;
-  font-size: 18px;
+padding: 30px;
+font-size: 18px;
 }
 
 th:first-child, td:first-child {
-  text-align: left;
+text-align: left;
 }
 
 tr:nth-child(even) {
-  background-color: #f7f7f8
+background-color: #f7f7f8
+}
+/* What is an eSIM end */
+
+/* Help page start */
+.nev1 { 
+position: static;
+}
+
+/*help nav bar start*/
+.help {
+background-image: linear-gradient(86deg, #d7e0ee 4.72%, #a0b9dc 101.45%);
+}
+.nev1 { 
+position: static;
+}
+.submit-right-side {
+margin-bottom: 0!important;
+position: absolute;
+right: 0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+padding-right: 2.5rem;  
+}
+a {
+color: black !important;
+text-decoration: underline;
+}
+/*help nav bar end*/
+.from {
+  height: 350px;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help-bg {
+  background-image: linear-gradient(86deg, #d7e0ee 4.72%, #a0b9dc 101.45%);}
+.frome  {   
+  border: 1px solid #0d0d0e;    
+}
+.dive-1 {
+background-color: #f6f6f9;
+height: 100px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+margin: 10px;
+}
+.dive-1:hover {
+background-color: #e4e4e6;
+}
+.dive-1 a {
+text-decoration: none;
+font-weight: bold;
+}
+.hr-help {
+border-top: 1px solid rgb(214, 206, 206);  
+margin-top: 2.5rem;
+margin-bottom: 2.5rem;
+}
+.search-box-help {
+position: relative;
+border-radius: 50px;
+background: white;
+padding: 15px 20px;
+display: flex;
+align-items: center;
+width: 100%;
+}
+.search-box-help .search-icon-help {
+border-radius: 50%;
+cursor: pointer;
+font-size: 1.5rem;
+}
+.search-box input {
+border: none;
+outline: none;
+background: none;
+flex: 1;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.search-box-padding-help {
+width: 100%;
+}
+.submit-text {
+text-decoration: none;
+}
+.year-saily {
+text-decoration: none;
+}
+/* Help page end */
+
+/* Start Download app page */
+.get-help-bg {
+color: #f3f3f3;
+background: black;
+padding: 50px;
+border-radius: 30px;
+}
+.support-text {
+color: #f3f3f3 !important;
+font-size: 24px;
+}
+.svg-image {
+width: 30px;
+height: 30px;
+margin-bottom: 20px;
+}
+
+/* end Download app page */
+.nordvpn-bg {
+background: #f7f7f8;
+border-radius: 50px;
+}
+.card-bg {
+background: #f7f7f8;
+padding: 30px;
+border-radius: 20px;
+}
+.nordvpn-padding {
+padding: 70px;
+}
+.bullet-text {
+font-size: 1.25rem;
+line-height: 1.5;
+font-weight: 500;
 }

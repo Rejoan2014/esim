@@ -308,6 +308,7 @@ th:first-child, td:first-child {
 tr:nth-child(even) {
   background-color: #f7f7f8
 }
+<<<<<<< Updated upstream
  /* What is an eSIM end */
 
 /* Help page start */
@@ -436,3 +437,7 @@ a {
   line-height: 1.5;
   font-weight: 500;
 }
+=======
+
+/* What is an eSIM end */
+>>>>>>> Stashed changes

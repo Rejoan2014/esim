@@ -495,3 +495,54 @@ a {
 }
  /*Saily Help CenterGetting Started with Saily */ 
 
+/*setting up regional pag started */ 
+ /*list style */ 
+.Articles {
+  font-size: 17px;
+  color: #000;
+}
+
+ .list ul { 
+  margin: 0;
+  padding: 0;
+}
+.list ul li { 
+  list-style: none;
+}
+.list ul li a { 
+  text-decoration: none;
+  color: #000;
+ 
+}
+.list ul li a:hover { 
+  text-decoration: underline;
+  color: #000;
+}
+ /*list style end */ 
+
+.plans-text {
+  line-height: 22px;
+}
+.helpful {
+  border-top: 1px solid  #d1ced1aa;
+  border-bottom: 1px solid  #d1ced1aa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.helpful button {
+    width: 100px;
+    background: #fff;
+    border: 1px solid #d1ced1aa;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.helpful button:hover {
+    width: 100px;
+    background: #131212;
+    border: 1px solid #d1ced1aa;
+    padding: 5px;
+    color: #fff;
+}
+ /*setting up regional pag end */
+

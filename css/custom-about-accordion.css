@@ -1,0 +1,48 @@
+/* .accordion code start */
+.accordion-button:focus {
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #fff;
+  box-shadow: none;
+}
+.accordion-button {
+  font-weight: bold;
+  border: none;
+  padding-left: 20px;
+  position: relative;
+}
+.accordion-body {
+  font-weight: normal;
+  border-top: none;
+  padding-left: 20px;
+  position: relative;
+}
+.accordion-item {
+  border: none;
+  position: relative;
+}
+.accordion-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background-color: #000;
+}
+.accordion-header {
+  border-bottom: none;
+  position: relative;
+}
+.accordion-button::after {
+  display: none;
+}
+.accordion {
+  --bs-accordion-inner-border-radius: ;
+}
+p {
+  font-size: 16px;
+}
+/* .accordion code end */

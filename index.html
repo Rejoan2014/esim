@@ -43,57 +43,59 @@
     <!--=============================
     START HEADER SECTION
     ==============================-->
-    <header> 
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary header-background">
-            <!-- Container wrapper -->
+    <header class="py-5">         
+        <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg header-background">
             <div class="container">
-                <!-- Navbar brand -->
-                <a class="navbar-brand me-2" href="index.html">
-                    <img src="new-images/logosvg/saily-logo.svg" width="100" alt="saily logo" loading="lazy" style="margin-top: -1px;" />
-                </a>
-                <div data-mdb-collapse-init class="navbar-toggler"
-                    data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <div class="" onclick="myFunction(this)">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                    </div>
+              <a class="navbar-brand me-2" href="index.html">
+                <img src="new-images/logosvg/saily-logo.svg" width="100" alt="saily logo" loading="lazy" style="margin-top: -1px;" />
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    <a class="navbar-brand me-2" href="index.html">
+                        <img src="new-images/logosvg/saily-logo.svg" width="100" alt="saily logo" loading="lazy" style="margin-top: -1px;" />
+                    </a>
+                  </h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-
-                <!-- Collapsible wrapper -->
-                <div class="collapse navbar-collapse" id="navbarButtonsExample">
-                    <!-- Left links -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#"></a>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="esim.html">What is an eSim</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="help_center.html">Help Center</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link app-button" href="download_app.html">Download App</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
                         </li>
-                    </ul>
-                    <!-- Left links -->                    
-                    <div class="d-flex align-items-center nav-item">
-                        <a href="destination.html" data-mdb-ripple-init class="btn btn-link px-3 me-2">
-                            Destinations
-                        </a>
-                        <a href="esim.html" data-mdb-ripple-init class="btn btn-link px-3 me-2">
-                            What is an eSim
-                        </a>
-                        <a href="about.html" data-mdb-ripple-init class="btn btn-link px-3 me-2">
-                            About Us
-                        </a>
-                        <a href="help_center.html" data-mdb-ripple-init class="btn btn-link px-3 me-2">
-                            Help Center
-                        </a>
-                        <a href="download_app.html" data-mdb-ripple-init class="btn btn-link px-3 me-2 app-button">
-                            Download App
-                        </a>
-                    </div>
-                    
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>                  
                 </div>
-                <!-- Collapsible wrapper -->
+              </div>
             </div>
-            <!-- Container wrapper -->
-        </nav>
-        <!-- Navbar -->        
+        </nav>       
     </header>
     <!--=============================
     END HEADER SECTION   

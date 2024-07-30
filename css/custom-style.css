@@ -69,6 +69,7 @@ body {
   display: flex;
   align-items: center;
   border: 9px solid #bac9df;
+  width: 75%;
 }
 
 .search-box input {
